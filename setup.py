@@ -10,10 +10,11 @@ except FileNotFoundError:
 
 setup(
     name='assis',
-    version='0.1',
+    version='0.3.2',
     packages=find_packages(),
     description="A doc generator for data engineering projects.",
     long_description=long_description,
+    include_package_data=True,
     author="Pedro H. Gonçalves",
     author_email="pedro_gonsalves@hotmail.com",
     url="https://github.com/pedrohgoncalvess/assis",

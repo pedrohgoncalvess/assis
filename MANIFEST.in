@@ -1,0 +1,2 @@
+include assis/local_openia/statement/main.yaml
+recursive-include assis/local_openia/statement *
