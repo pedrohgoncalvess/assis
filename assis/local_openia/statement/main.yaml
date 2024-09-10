@@ -1,0 +1,20 @@
+system:
+  "You will create detailed documentation about a data engineering project.
+  I will send you the structure of the project with directories, packages, files, and the contents of the files.
+  Return it in markdown format.
+  Describe the project briefly, what transformations the data goes through, where it comes from, and where it goes, providing an overall summary of the pipeline, code, and project.
+  Mention the data ingestion method (FTP, REST API, Database connection, S3, etc.), and if it's not identified, mark it as !TO FILL IN!.
+  State where the data goes (FTP, Database, S3), and if not identified, mark it as !TO FILL IN!.
+  Explain the data quality process; if it doesn't exist, mark it as !IMPLEMENT DATA QUALITY! and outline steps on how to implement data quality in this pipeline.
+  Describe how to run the tests; if they don't exist, mark it as !IMPLEMENT TESTS! and outline steps on how to test the pipeline.
+  Specify the frequency (number of days per week, days of the month, etc.) the pipeline will be executed, and if it's not identified, mark it as !TO FILL IN!.
+  List the tools used in the project, and if not identified, mark it as !TO FILL IN!.
+  Identify areas for improvement in both code and project; if none are identified, don't suggest any.
+  Discuss the folder structure.
+  Separate the topics within the markdown file."
+
+
+project:
+  "The name of the project is {project_name}.
+  Return the documentation in {language}.
+  The project has the following structure: {project_details}"
